@@ -1,0 +1,21 @@
+.kw0, .operator {
+  color: #fff;
+}
+.identifier {
+  color: #fff;
+}
+.kw1, .regex, .command-substitution, .template-expr {
+  color: #fff;
+}
+.kw2, .open-square, .close-square, .open-curly, .close-curly,
+.area-comment, .area-comment-continue, .line-comment,
+.open-paren, .close-paren {
+  color: #ffc0cb;
+}
+.number, .quote, .single-quote, .double-quote, .char,
+.template-string, .heredoc {
+  color: rgb(205, 236, 255);
+}
+.directive, .shebang, .variable {
+  color: #cdecff;
+}

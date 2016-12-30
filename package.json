@@ -1,0 +1,27 @@
+{
+  "name": "highlight-syntax-pastel",
+  "version": "1.0.0",
+  "description": "Pastel theme for highlight-syntax",
+  "main": "index.css",
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "start": "bankai start --js [ --transform brfs ] example",
+    "test": "standard-markdown"
+  },
+  "repository": "yoshuawuyts/highlight-syntax-pastel",
+  "keywords": [
+    "theme",
+    "highlight-syntax",
+    "syntax"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "bankai": "^5.2.0",
+    "bel": "^4.5.1",
+    "brfs": "^1.4.3",
+    "highlight-syntax": "^3.0.2",
+    "standard-markdown": "^2.3.0",
+    "tape": "^4.6.3"
+  }
+}
